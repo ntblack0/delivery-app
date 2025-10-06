@@ -1,11 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delivery App</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+  <header>
+    <h1>🍔 Delivery App</h1>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Faça seu pedido</h2>
+      <form id="pedidoForm">
+        <input type="text" id="nome" placeholder="Seu nome" required>
+        <input type="text" id="item" placeholder="Produto" required>
+        <button type="submit">Enviar Pedido</button>
+      </form>
+      <p id="mensagem"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Delivery Express</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
